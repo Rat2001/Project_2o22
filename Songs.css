@@ -1,0 +1,5 @@
+.GlowText:hover {
+    border-color: rgb(156, 138, 147);
+    box-shadow: 0px 0px 10px 2px rgb(255, 230, 231);
+    
+  }

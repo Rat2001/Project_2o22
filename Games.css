@@ -1,0 +1,63 @@
+.Heading{
+    color: rgb(244, 244, 245);
+    margin-top: 0%;
+    margin-left: 0%;
+
+}
+.MoveGameGif{
+  margin-bottom: 10%;
+}
+.Btn2{
+    margin-left: 100%;
+    margin-top: 0%;
+}
+.HeadingHr{
+    color: rgb(253, 252, 252);
+    margin-top: 5%;
+    margin-left: 2%;
+
+} 
+ .container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .container .box {
+    position: relative;
+    width: 8rem;
+    height: 8rem;
+    margin: 1rem;
+  }
+  
+  .container .box:hover .imgBox {
+    transform: translate(-3.5rem, -3.5rem);
+  }
+  
+  .container .box:hover .content {
+    transform: translate(3.5rem, 3.5rem);
+  }
+  
+  .imgBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 1%;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .imgBox img {
+    border-radius: 15px 15px 15px 15px;
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+    resize: both;
+  }
+   
+  
+ 
